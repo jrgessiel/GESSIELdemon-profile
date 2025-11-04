@@ -6,7 +6,7 @@ Meu HUB que conecta boa parte dos meus projetos e apresenta minhas habilidades c
 
 * **Responsividade:** Garante uma boa visualização em todos os dispositivos.
 * **Mudança de tema:** Seletor de tema funcional implementado 100% com CSS, usando variáveis e seletores de checkbox.
-* **Carrossel CSS:** A seção de portfólio apresenta um carrossel infinito e animado construído inteiramente com animações CSS, sem JavaScript.
+* **Carrossel CSS:** A seção de portfólio apresenta um carrossel infinito e animado construído inteiramente CSS.
 * **Modal Acessível:** Uma janela modal para exibir meu currículo, que pode ser ativada e desativada de forma acessível.
 
 ##  Tecnologias
@@ -17,13 +17,15 @@ Meu HUB que conecta boa parte dos meus projetos e apresenta minhas habilidades c
 
 ## Estrutura 
 
+```
 ├── index.html
 ├── css/
 │   └── style.css
 └── assets/
     ├── icons/
     └── images/
+```
 
 ## 📄 Licença
 
-Projeto licenciado: **MIT License**.
+Projeto licenciado: [MIT License](LICENSE).

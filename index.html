@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESSIELdemon - Desenvolvedor de Sites e Jogos</title>
+    <meta name="author" content="Gessiel Junior">
+    <meta name="description"
+        content="Meu site profissional, desenhado para apresentar minhas habilidades e projetos. Gessiel Júnior, um desenvolvedor de sites e jogos de Minas Gerais, apaixonado por tecnologia e programação.">
+
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/icons/profile-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="theme-toggle-checkbox" class="visually-hidden">
+    <input type="checkbox" id="menu-toggle-checkbox" class="visually-hidden">
+
+    <div class="page-wrapper">
+        <header class="site-header">
+            <div class="container site-header__container">
+                <a href="#home" class="site-header__logo">GESSIELdemon</a>
+                <nav class="site-header__nav" id="main-nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Início</a></li>
+                        <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfólio</a></li>
+                    </ul>
+                </nav>
+                <div class="site-header__actions">
+                    <label for="theme-toggle-checkbox" class="theme-toggle" title="Alternar tema">
+                        <span class="theme-toggle__icon sun"><i class="fa-solid fa-sun"></i></span>
+                        <span class="theme-toggle__icon moon"><i class="fa-solid fa-moon"></i></span>
+                    </label>
+                    <label for="menu-toggle-checkbox" class="menu-toggle" aria-controls="main-nav"
+                        aria-label="Abrir menu">
+                        <i class="fa-solid fa-bars icon-open"></i>
+                        <i class="fa-solid fa-xmark icon-close"></i>
+                    </label>
+                </div>
+            </div>
+        </header>
+
+        <main class="site-content">
+            <section id="home" class="hero-section">
+                <div class="container hero__container">
+                    <div class="hero__image-wrapper">
+                        <img src="assets/images/gessieldemon-profile.jpg"
+                            alt="Retrato de Gessiel Junior, com fundo neutro." width="400" height="400" loading="eager">
+                    </div>
+                    <div class="hero__content">
+                        <h1 class="hero__title">
+                            <span class="title-bg">SOBRE</span>
+                            <span class="title-fg">GESSIELdemon</span>
+                        </h1>
+                        <p class="hero__subtitle">Desenvolvedor de sites e jogos</p>
+                        <p>Meu nome é Gessiel Junior. Um mineiro fascinado por desenvolver pequenos programas, sites e
+                            jogos, com uma paixão especial pela astronomia.</p>
+                        <p>Embora ainda não pague as contas com programação, me dedico um pouco todos os dias para me
+                            tornar um especialista em tempo integral na área.</p>
+                        <a href="#resume-modal" class="btn" role="button">Saiba Mais</a>
+                        <div class="socials">
+                            <p class="socials__title">Encontre-me em:</p>
+                            <ul class="socials__list">
+                                <li><a href="https://github.com/jrgessiel" target="_blank" rel="noopener noreferrer"
+                                        aria-label="Perfil no GitHub" title="GitHub"><i
+                                            class="fa-brands fa-github"></i></a></li>
+                                <li><a href="https://x.com/jrgessiel" target="_blank" rel="noopener noreferrer"
+                                        aria-label="Perfil no X " title="X"><i
+                                            class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/jrgessiel/" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Perfil no Instagram" title="Instagram"><i
+                                            class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://psnprofiles.com/GESSIELdemon" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Perfil na PSNProfiles"
+                                        title="PlayStation Trofeus"><i class="fa-brands fa-playstation"></i></a></li>
+                                <li><a href="https://www.twitch.tv/gessielntj" target="_blank" rel="noopener noreferrer"
+                                        aria-label="Canal na Twitch" title="Twitch"><i
+                                            class="fa-brands fa-twitch"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sobre" class="about-section">
+                <div class="container">
+                    <h2 class="visually-hidden">Meus Hobbies e Paixões</h2>
+                    <div class="about__grid">
+                        <article class="skill-card">
+                            <div class="skill-card__icon"><i class="fa-solid fa-headphones"></i></div>
+                            <div class="skill-card__content">
+                                <h3 class="skill-card__title">Ouvir Música</h3>
+                                <p>A música é minha trilha sonora diária, uma fonte de inspiração para criar projetos
+                                    imersivos e atmosferas envolventes.</p>
+                            </div>
+                        </article>
+                        <article class="skill-card">
+                            <div class="skill-card__icon"><i class="fa-solid fa-file-pen"></i></div>
+                            <div class="skill-card__content">
+                                <h3 class="skill-card__title">Escrever</h3>
+                                <p>Escrever é minha ferramenta para organizar ideias e expressar criatividade. Iniciei
+                                    com textos sobre astronomia e, hoje, utilizo a escrita para documentar códigos e
+                                    desenvolver narrativas.</p>
+                            </div>
+                        </article>
+                        <article class="skill-card">
+                            <div class="skill-card__icon"><i class="fa-solid fa-ghost"></i></div>
+                            <div class="skill-card__content">
+                                <h3 class="skill-card__title">Jogar</h3>
+                                <p>Jogos são meu laboratório criativo, onde exploro mecânicas e designs para inspirar e
+                                    aplicar em novos projetos.</p>
+                            </div>
+                        </article>
+                        <article class="skill-card">
+                            <div class="skill-card__icon"><i class="fa-solid fa-code"></i></div>
+                            <div class="skill-card__content">
+                                <h3 class="skill-card__title">Desenvolver</h3>
+                                <p>Resolver problemas codificando é minha paixão central, com foco em dar vida a sites e
+                                    jogos através da tecnologia.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="portfolio-section">
+                <div class="container">
+                    <header class="section-header">
+                        <h2>
+                            <span class="title-bg">PROJETOS</span>
+                            <span class="title-fg">TRABALHOS EM DESTAQUE</span>
+                        </h2>
+                    </header>
+                    <div class="portfolio__category">
+                        <h3>Desenvolvimento de Sites</h3>
+                        <div class="carousel-viewport">
+                            <div class="carousel-track">
+                                <article class="project-card">
+                                    <a href="../Profile/index.html" target="_blank" rel="noopener noreferrer">
+                                        <div class="project-card__image-wrapper"><img
+                                                src="assets/images/frame-webdev-portfolio.jpg"
+                                                alt="Prévia do projeto Portfólio Pessoal." loading="lazy"></div>
+                                        <div class="project-card__info">
+                                            <h4>Portfólio Pessoal</h4>
+                                            <p class="project-card__description">Meu site profissional, desenhado para
+                                                apresentar minhas habilidades e projetos.</p><span
+                                                class="project-card__tech">HTML & CSS</span>
+                                        </div>
+                                    </a>
+                                </article>
+                                <article class="project-card">
+                                    <a href="../Astronomy/index.html" target="_blank" rel="noopener noreferrer">
+                                        <div class="project-card__image-wrapper"><img
+                                                src="assets/images/frame-webdev-astronomy.jpg"
+                                                alt="Prévia do projeto astronomia." loading="lazy"></div>
+                                        <div class="project-card__info">
+                                            <h4>Astronomia</h4>
+                                            <p class="project-card__description">Uma linha do tempo interativa e
+                                                responsiva com alguns marcos da ciência.</p><span
+                                                class="project-card__tech">HTML & CSS</span>
+                                        </div>
+                                    </a>
+                                </article>
+                                <article class="project-card">
+                                    <a href="../Clock/index.html" target="_blank" rel="noopener noreferrer">
+                                        <div class="project-card__image-wrapper"><img
+                                                src="assets/images/frame-webdev-clock.jpg"
+                                                alt="Prévia do projeto relogio." loading="lazy"></div>
+                                        <div class="project-card__info">
+                                            <h4>Relógio</h4>
+                                            <p class="project-card__description">Um relógio digital minimalista
+                                                construído com JavaScript puro.</p><span
+                                                class="project-card__tech">HTML, CSS & JS</span>
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article class="project-card" aria-hidden="true">
+                                    <a href="../Profile/index.html" target="_blank" rel="noopener noreferrer">
+                                        <div class="project-card__image-wrapper"><img
+                                                src="assets/images/frame-webdev-portfolio.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="project-card__info">
+                                            <h4>Portfólio Pessoal</h4>
+                                            <p class="project-card__description">Meu site profissional, desenhado para
+                                                apresentar minhas habilidades e projetos.</p><span
+                                                class="project-card__tech">HTML & CSS</span>
+                                        </div>
+                                    </a>
+                                </article>
+                                <article class="project-card" aria-hidden="true">
+                                    <a href="../Astronomy/index.html" target="_blank" rel="noopener noreferrer">
+                                        <div class="project-card__image-wrapper"><img
+                                                src="assets/images/frame-webdev-astronomy.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="project-card__info">
+                                            <h4>Astronomia</h4>
+                                            <p class="project-card__description">Uma linha do tempo interativa e
+                                                responsiva com alguns marcos da ciência.</p><span
+                                                class="project-card__tech">HTML & CSS</span>
+                                        </div>
+                                    </a>
+                                </article>
+                                <article class="project-card" aria-hidden="true">
+                                    <a href="../Clock/index.html" target="_blank" rel="noopener noreferrer">
+                                        <div class="project-card__image-wrapper"><img
+                                                src="assets/images/frame-webdev-clock.jpg" alt="" loading="lazy"></div>
+                                        <div class="project-card__info">
+                                            <h4>Relógio</h4>
+                                            <p class="project-card__description">Um relógio digital minimalista
+                                                construído com JavaScript puro.</p><span
+                                                class="project-card__tech">HTML, CSS & JS</span>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__category">
+                        <h3>Desenvolvimento de Jogos</h3>
+                        <div class="carousel-viewport">
+                            <div class="carousel-track carousel-track--reverse">
+                                <article class="project-card">
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <div class="project-card__image-wrapper"><img
+                                                src="assets/images/frame-webdev-portfolio.jpg"
+                                                alt="Prévia do projeto Portfólio Pessoal." loading="lazy"></div>
+                                        <div class="project-card__info">
+                                            <h4>Projeto Futuro</h4>
+                                            <p class="project-card__description">Um novo jogo está em desenvolvimento.
+                                                Volte em breve para mais novidades!</p><span
+                                                class="project-card__tech">GML</span>
+                                        </div>
+                                    </a>
+                                </article>
+                                <article class="project-card">
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <div class="project-card__image-wrapper"><img
+                                                src="assets/images/frame-webdev-portfolio.jpg"
+                                                alt="Prévia do projeto Portfólio Pessoal." loading="lazy"></div>
+                                        <div class="project-card__info">
+                                            <h4>Projeto Futuro</h4>
+                                            <p class="project-card__description">Um novo jogo está em desenvolvimento.
+                                                Volte em breve para mais novidades!</p><span
+                                                class="project-card__tech">GML</span>
+                                        </div>
+                                    </a>
+                                </article>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container site-footer__container">
+                <p>&copy; 2025 Gessiel Junior. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <div id="resume-modal" class="modal-overlay" tabindex="-1">
+        <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <a href="#" class="modal__close" title="Fechar" aria-label="Fechar modal">&times;</a>
+            <div class="modal__content">
+                <h2 id="modal-title">Sumário Profissional</h2>
+                <section class="resume-section">
+                    <h3>Experiência & Formação</h3>
+                    <article class="resume-item">
+                        <div class="resume-item__header">
+                            <h4>Almoxarife</h4><span class="resume-item__year">Maio de 2022</span>
+                        </div>
+                        <div class="resume-item__details">
+                            <p><strong>Bioenergia S.A, Bambuí-MG</strong></p>
+                            <p>Gerenciei o estoque com precisão, controlando entradas e saídas de material, otimizando a
+                                organização do almoxarifado.</p>
+                        </div>
+                    </article>
+                    <article class="resume-item">
+                        <div class="resume-item__header">
+                            <h4>Ajudante de Marceneiro</h4><span class="resume-item__year">Maio de 2018</span>
+                        </div>
+                        <div class="resume-item__details">
+                            <p><strong>Marcenaria Silva, Bambuí-MG</strong></p>
+                            <p>Fabriquei móveis sob medida, interpretando projetos técnicos e mantendo o ambiente
+                                organizado para otimizar a produção.</p>
+                        </div>
+                    </article>
+                    <article class="resume-item">
+                        <div class="resume-item__header">
+                            <h4>Ensino Médio</h4><span class="resume-item__year">Concluído em 2022</span>
+                        </div>
+                        <div class="resume-item__details">
+                            <p>Escola João Batista de Carvalho, Bambuí-MG</p>
+                        </div>
+                    </article>
+                </section>
+                <section class="resume-section">
+                    <h3>Competências Técnicas</h3>
+                    <ul class="competencies-grid">
+                        <li>Pacote Office (Excel & Word)</li>
+                        <li>HTML & CSS</li>
+                        <li>Hardware (Montagem)</li>
+                        <li>JavaScript</li>
+                        <li>Windows & Linux</li>
+                        <li>Game Maker Language</li>
+                        <li>Python</li>
+                    </ul>
+                </section>
+                <div class="modal__actions">
+                    <a href="" class="btn-outline"><i class="fa-solid fa-download"></i> Baixar Currículo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
